@@ -1,0 +1,24 @@
+{
+  "name": "fsalehpour/PersianToolkit",
+  "description": "A package for fixing problems with Persian character conversions",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Faramarz Salehpour",
+      "email": "subs@marz.co"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FSalehpour\\PersianToolkit\\": "src/"
+    }
+  },
+  "require": {
+    "php" : "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
